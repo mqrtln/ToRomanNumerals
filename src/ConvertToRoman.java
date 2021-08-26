@@ -5,6 +5,8 @@ public class ConvertToRoman{
             return numerals = "I";
         } else if(i == 2){
             return numerals = "II";
+        } else if(i == 3){
+            return numerals = "III";
         }
         return numerals;
     }

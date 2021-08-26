@@ -10,8 +10,11 @@ public class IntToRomanTest {
     }
 
     @Test
-    public void shouldConvert1ToII(){
+    public void shouldConvert2ToII(){
         assertEquals("II", new ConvertToRoman().convertIntToRoman(2));
     }
-
+    @Test
+    public void shouldConvert3ToIII(){
+        assertEquals("III", new ConvertToRoman().convertIntToRoman(3));
+    }
 }

@@ -6,9 +6,12 @@ public class IntToRomanTest {
 
     @Test
     public void shouldConvert1ToI(){
-        assertEquals("I", new ConvertToRoman().convert1toI(1));
+        assertEquals("I", new ConvertToRoman().convertIntToRoman(1));
     }
 
-
+    @Test
+    public void shouldConvert1ToII(){
+        assertEquals("II", new ConvertToRoman().convertIntToRoman(2));
+    }
 
 }
